@@ -1,0 +1,1000 @@
+  305  docker-compose version
+  306  ls
+  307  more Dockerfile 
+  308  vim Dockerfile 
+  309  docker-compose up
+  310  clear
+  311  ls
+  312  vim Dockerfile 
+  313  clear
+  314  ls
+  315  cat api.py 
+  316  clear
+  317  ls
+  318  cat requirements.txt 
+  319  clear
+  320  ls
+  321  ls -ltr
+  322  more docker-compose.yml 
+  323  docker-compose ps
+  324  docker images
+  325  docker rm 3d2572cbc86d
+  326  docker rmi 3d2572cbc86d
+  327  docker rm $(docker -a)
+  328  docker rm $(docker -a -q )
+  329  clear
+  330  docker images
+  331  docker ps -a
+  332  docker rm c9b62bc94129
+  333  docker rm ad0ca34f71f0
+  334  clear
+  335  ls
+  336  w
+  337  docker images
+  338  docker ps -a
+  339  cler
+  340  clear
+  341  ls
+  342  docker-compose logs
+  343  journalctl -xe
+  344  clear
+  345  ls
+  346  yum remove multupath
+  347  yum remove multipath
+  348  yum remove multipathd
+  349  clear
+  350  ls
+  351  netstat -antp
+  352  yum remove kibana
+  353  yum remove logstash
+  354  yum remove redis
+  355  clear
+  356  yum remove elasticsearch
+  357  clear
+  358  ls
+  359  df -h
+  360  clear
+  361  netstat -antp
+  362  yum remove redis
+  363  clear
+  364  ls
+  365  netstat -antp
+  366  docker-compose config
+  367  docker-compose 
+  368  docker-compose bundle
+  369  clear
+  370  ls
+  371  rm api.py 
+  372  clear
+  373  ls
+  374  pwd
+  375  docker-compose up
+  376  docker-compose ps
+  377  clear
+  378  ls
+  379  docker ps -a
+  380  docker rm ea0b75890870
+  381  docker rm d4859ccefa55
+  382  clear
+  383  ls
+  384  docker ps -a
+  385  clear
+  386  vim api..py
+  387  vim api.py
+  388  clear
+  389  python api.py 
+  390  vim api.py 
+  391  python api.py 
+  392  vim api.py 
+  393  python api.py 
+  394  cp api.py api.py-old
+  395  vim api.py
+  396  python api.py
+  397  clar
+  398  clear
+  399  vim api.py
+  400  python
+  401  clear
+  402  docker ps -a
+  403  docker  images 
+  404  clear
+  405  ls
+  406  docker-compose up 
+  407  vim api.py
+  408  cp api.py app.py
+  409  docker-compose up 
+  410  docker-compose down
+  411  docker images
+  412  docker ps -a
+  413  clear
+  414  ls
+  415  mkdir app
+  416  cp app.py app/
+  417  clear
+  418  docker-compose up 
+  419  docker-compose down
+  420  clear
+  421  ls
+  422  rm -rf app/app.py 
+  423  rm -rf app/
+  424  ls
+  425  clear
+  426  ls
+  427  docker-compose version
+  428  clear
+  429  ls
+  430  more docker-compose.yml 
+  431  docker version
+  432  clear
+  433  ls
+  434  clear
+  435  ls
+  436  clear
+  437  ls
+  438  more docker-compose.yml 
+  439  more Dockerfile 
+  440  vi Dockerfile 
+  441  vim docker-compose.yml 
+  442  vim Dockerfile 
+  443  docker-compose up
+  444  clear
+  445  vim docker-compose.yml 
+  446  docker-compose up
+  447  more docker-compose.yml 
+  448  vim  docker-compose.yml 
+  449  docker-compose up
+  450  vim  docker-compose.yml 
+  451  docker-compose up
+  452  docker-compose 
+  453  docker ps -a
+  454  clear
+  455  docker images
+  456  docker ps -a
+  457  docker-compose down
+  458  docker ps -a
+  459  vim docker-compose.yml 
+  460  vim Dockerfile 
+  461  docker-compose up
+  462  journalctl -xe
+  463  vim app.py 
+  464  journalctl -xe
+  465  docker-compose down
+  466  docker-compose up
+  467  vim app.py 
+  468  clear
+  469  ls
+  470  docker images
+  471  vim app.py 
+  472  python app.py 
+  473  vim app.py 
+  474  clear
+  475  ls
+  476  rm api.py
+  477  ls
+  478  rm app.py*
+  479  ls
+  480  rm api.py-old 
+  481  ls
+  482  clear
+  483  ls
+  484  pwd
+  485  cat requirements.txt 
+  486  more Dockerfile 
+  487  vim  Dockerfile 
+  488  clear
+  489  docker-compose up
+  490  ls
+  491  vim app.py
+  492  python app.py 
+  493  more Dockerfile 
+  494  vim Dockerfile 
+  495  docker-compose down
+  496  docker-compose up
+  497  docker-compose ps
+  498  clear
+  499  ls
+  500  more Dockerfile 
+  501  journalctl -xe
+  502  clear
+  503  ls
+  504  vim docker-compose.yml 
+  505  docker-compose down
+  506  vim docker-compose.yml 
+  507  docker-compose down
+  508  vim docker-compose.yml 
+  509  docker-compose down
+  510  vim docker-compose.yml 
+  511  docker-compose down
+  512  vim docker-compose.yml 
+  513  docker-compose down
+  514  vim docker-compose.yml 
+  515  clear
+  516  ls
+  517  docker-compose down
+  518  docker-compose up
+  519  ls -l
+  520  more app.py 
+  521  python app.py 
+  522  clear
+  523  ls
+  524  clear
+  525  ls
+  526  ls -ltr
+  527  vim app.py 
+  528  docker-compose down
+  529  docker-compose up
+  530  netstat -antp
+  531  journalctl -xe
+  532  date
+  533  clear
+  534  mount
+  535  docker-compose down
+  536  docker-compose up
+  537  clear
+  538  ls
+  539  python app.py 
+  540  clear
+  541  ls
+  542  vim app.py 
+  543  python app.py 
+  544  clear
+  545  ls
+  546  docker-compose down
+  547  docker-compose up
+  548  clear
+  549  ls
+  550  vim app.py 
+  551  docker-compose up
+  552  reboot
+  553  netstat -ant
+  554  docker-compose ps
+  555  cd /home/docker-lab/
+  556  ls
+  557  ls
+  558  docker-compose ps
+  559  netstat -antp
+  560  docker-compose down
+  561  cd /home/docker-lab/
+  562  ls
+  563  cd DC/
+  564  ls
+  565  journalctl -xe
+  566  watch 'journalctl -xe'
+  567  netstat -antp
+  568  docker-compose ps
+  569  docker ps -a
+  570  clear
+  571  ls
+  572  more *
+  573  more Dockerfile
+  574  clear
+  575  cat app.py 
+  576  vim  app.py 
+  577  clear
+  578  ls
+  579  more docker-compose.yml 
+  580  more Dockerfile
+  581  more docker-compose.yml 
+  582  more docker-compose.yml 
+  583  clear
+  584  more docker-compose.yml 
+  585  more Dockerfile
+  586  pw
+  587  ls
+  588  clear
+  589  ls
+  590  docker-compose run services
+  591  docker-compose run service
+  592  docker-compose run 
+  593  docker-compose exec ls
+  594  docker-compose exec pwd
+  595  clear
+  596  docker-compose
+  597  docker-compose events
+  598  docker-compose logs
+  599  docker images
+  600  docker ps -a
+  601  clear
+  602  docker ps -a
+  603  docker exec a356022ab1db df -h
+  604  docker exec a356022ab1db df -h
+  605  clear
+  606  docker ps -a
+  607  docke exec 579365a78299 df -h
+  608  docker exec 579365a78299 df -h
+  609  docker images
+  610  docker ps -a
+  611  more Dockerfile
+  612  clear
+  613  more docker-compose.yml 
+  614  cp docker-compose.yml docker-compose.yml.worked 
+  615  cp Dockerfile Dockerfile.worked
+  616  vim docker-compose.yml
+  617  docker-compose down
+  618  docker ps -a
+  619  docker-compose logs
+  620  docker-compose up
+  621  docker-compose logs
+  622  docker-compose down
+  623  docker-compose up
+  624  docker-compose down
+  625  vim docker-compose.yml
+  626  docker-compose up
+  627  clear
+  628  more Dockerfile
+  629  more docker-compose.yml
+  630  more docker-compose.yml
+  631  clear
+  632  more Dockerfile
+  633  more docker-compose.yml
+  634  vi  docker-compose.yml
+  635  docker-compose down
+  636  docker-compose up
+  637  clear
+  638  ls
+  639  clear
+  640  ls
+  641  docker-compose down
+  642  clear
+  643  ls
+  644  ls
+  645   vim app.py
+  646  docker-compose up
+  647  clear
+  648  ls
+  649  more app.py
+  650  cp app.py.bck app.py
+  651  clear
+  652  ls
+  653  clear
+  654  ls
+  655  df -h
+  656  clear
+  657  ls
+  658  docker-compose down
+  659  docker-compose up
+  660  clear
+  661  exit
+  662  clear
+  663  ls
+  664  w
+  665  clear
+  666  docker images
+  667  clear
+  668  $$
+  669  clear
+  670  ls
+  671  echo $$
+  672  ps -ef
+  673  clear
+  674  ps -e
+  675  ps -ef
+  676  echo $$
+  677  stream
+  678  clear
+  679  ls
+  680  cd /home/
+  681  ls
+  682  mkdir jfrog
+  683  cd jfrog/
+  684   wget https://bintray.com/jfrog/artifactory-rpms/rpm -O bintray-jfrog-artifactory-rpms.repo
+  685  ls
+  686  du -sh *
+  687  wget https://bintray.com/jfrog/artifactory-pro-rpms/rpm -O bintray-jfrog-artifactory-pro-rpms.repo
+  688  sudo mv bintray-jfrog-artifactory-pro-rpms.repo /etc/yum.repos.d/
+  689  sudo yum install jfrog-artifactory-pro
+  690  vim /etc/opt/jfrog/artifactory/defaul
+  691  clear
+  692  ls
+  693  vim /etc/opt/jfrog/artifactory/default
+  694  service artifactory start
+  695  netstat -antp
+  696  service artifactory check
+  697  service artifactory  status
+  698  tail -f $ARTIFACTORY_HOME/logs/artifactory.log
+  699  clear
+  700  ls
+  701  vi /etc/yum.repos.d/artifactory.repo
+  702  yum repolist
+  703  vi /etc/yum.repos.d/artifactory.repo
+  704  yum repolist
+  705  clear
+  706  ls
+  707  clear
+  708  ls
+  709  w
+  710  pwd
+  711  journalctl -xe
+  712  clear
+  713  cat /etc/docker/daemon.json
+  714  cat /etc/docker/key.json 
+  715  cat /etc/default/
+  716  clear
+  717  ls
+  718  docker login
+  719  clear
+  720  systemctl start docker
+  721  docker login 192.168.56.12
+  722  docker login localhost
+  723  docker login 192.168.56.12/v1/admin
+  724  clear
+  725  vim /etc/hosts
+  726  docker login artifactory
+  727  docker login artifactory
+  728  docker login artifactory
+  729  docker login artifactory
+  730  clear
+  731  ping artifactory
+  732  clear
+  733  ls
+  734  clear
+  735  docker images
+  736  docker push artifactory/dc_web:web1
+  737  docker push dc_web:web1
+  738  docker login 192.168.56.12
+  739  docker login 
+  740  vi /etc/docker/daemon.json
+  741  clear
+  742  ls
+  743  cd /etc/docker/
+  744  ls
+  745  cp daemon.json daemon.json.old
+  746  vim daemon.json
+  747  systemctl restart docker 
+  748  systemctl status docker 
+  749  netstat -ANTP
+  750  netstat -antp
+  751  docker login 192.168.56.12
+  752  docker login artifactory/admin
+  753  curl -L ‘https://bintray.com/api/v1/content/jfrog/run/art-compose/$latest/art-compose?bt_package=art-compose’ | sudo bash
+  754  curl -L ‘https://bintray.com/api/v1/content/jfrog/run/art-compose/$latest/art-compose?bt_package=art-compose’ | sudo bash
+  755  clear
+  756  curl 
+  757  curl -L https://bintray.com/api/v1/content/jfrog/run/art-compose/$latest/art-compose?bt_package=art-compose | sudo bash
+  758  curl 
+  759  yum install curl
+  760  df -h
+  761  lvs
+  762  ip a
+  763  clear
+  764  cat /etc/inittab 
+  765  runlevel 
+  766  init 5 &
+  767  jobs
+  768  yum groupinstall "GNOME Desktop" "Graphical Administration Tools"
+  769  yum groupinstall "GNOME Desktop" 
+  770  yum  list installed
+  771  yum  list installed |grep gnome
+  772   ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
+  773  reboot
+  774  su -demo
+  775  clear
+  776  ls
+  777  pwd
+  778  exit
+  779  clear
+  780   yum install tigervnc-server
+  781  cp /lib/systemd/system/vncserver@.service /etc/systemd/system/vncserver@:1.service
+  782  vi /etc/systemd/system/vncserver@:1.service
+  783  vim /etc/systemd/system/vncserver@:1.service
+  784  clear
+  785  ls
+  786  su
+  787  exit
+  788  clear
+  789  ls
+  790  yum install eclipse
+  791  clear
+  792  ls
+  793  clear
+  794  systemctl status docker
+  795  yum install docker
+  796  systemctl start docker
+  797  clear
+  798  ls
+  799  clear
+  800  w
+  801  docker images
+  802  docker rmi  redis
+  803  docker rmi  3d2572cbc86d
+  804  docker rmi  5c72717ec319
+  805  docker rmi  d3117424aaee
+  806  docker images
+  807  docker ps -a
+  808  docker rm $(docker ps -a -q)
+  809  clear
+  810  docker rm $(docker ps -a -q)
+  811  docker ps -a
+  812  clear
+  813  ls
+  814  clear
+  815  docker images
+  816  docker search nginx
+  817  docker pull doker.io/ nginx
+  818  docker pull doker.io/nginx
+  819  docker pull wordpress:latest
+  820  c
+  821  docker tag wordpress:latest CentOs/wordpress:latest
+  822  docker tag wordpress:latest centos7/wordpress:latest
+  823  docker images
+  824  docker tag wordpress:latest centos7/wordpress:latest
+  825  docker images
+  826  docker run centos7/wordpress
+  827  clear
+  828  docker ps -a
+  829  netstat -antp
+  830  docks ps -a
+  831  docker ps 
+  832  docker ps -a
+  833  clear
+  834  docker run centos7/wordpress
+  835  docker ps -a
+  836  docker stop $(docker ps -a -q)
+  837  docker ps -a
+  838  clear
+  839  ls
+  840  docker ps -a
+  841  docker images
+  842  docker rm 5ec538668350
+  843  docker ps -a
+  844  docker rm $(docker ps -a)
+  845  docker rm $(docker ps -a -q)
+  846  docker ps -a
+  847  clear
+  848  docker rm $(docker ps -a -q)
+  849  docker ps -a
+  850  docker run -p 7777:80 centos7/wordpress 
+  851  clear
+  852  netstat a-ntp
+  853  netstat -antp
+  854  iptables -nvL
+  855  iptables -F
+  856  clear
+  857  getenforce 
+  858  systemctl stop firewalld.service
+  859  systemctl disable firewalld.service
+  860  su - demo
+  861  clear
+  862  docker images
+  863  docker ps -a
+  864  docker
+  865  docker built -t
+  866  docker build
+  867  clear
+  868  ls
+  869  pwd
+  870  vim Dockerfile
+  871  docker images
+  872  docker tag docker.io/jenkins web/jenkins
+  873  docker images
+  874  vim Dockerfile 
+  875  docker build 
+  876  docker build - < Dockerfile
+  877  clear
+  878  ls
+  879  clear
+  880  docker images
+  881  docker  tag <none> web1/jenkins
+  882  docker  tag 8376640152e7  web1/jenkins
+  883  docker images
+  884  docker ps -a
+  885  docker stop $(docker ps -a -q)
+  886  docker rm $(docker ps -a -q)
+  887  clear
+  888  ls
+  889  docker ps -a
+  890  docker images
+  891  docker rmi centos7/wordpress
+  892  docker rmi docker.io/wordpress
+  893  docker images
+  894  docker rmi docker.io/jenkins
+  895  clear
+  896  docker images
+  897  docker rmi web/jenkins
+  898  clear
+  899  ls
+  900  docker images
+  901  docker ps -a
+  902  docker images
+  903  docker run -p 9292:8080 web1/jenkins
+  904  clear
+  905  yum update
+  906  clear
+  907   docker images
+  908  clear
+  909  docker run -p 8585:80 centos7/wordpress
+  910  exit
+  911  docker ps -a
+  912  netstat -antp
+  913  docker run -p 6666:80 centos7/wordpress
+  914  docker images
+  915  docker run -p 6666:80 centos7/wordpress
+  916  docker run -p 4444:80 centos7/wordpress
+  917  exit
+  918  docker ps -a
+  919  clear
+  920  docker ps -a
+  921  ps -a
+  922  docker images
+  923  docker
+  924  docker stats
+  925  docker images
+  926  docker search jenkins
+  927  clear
+  928  docker images
+  929  docker pull docker.io/jenkins 
+  930  docker ps
+  931  docker images
+  932  docker run -p 9090:8080 docker.io/jenkins
+  933  exit
+  934  clear
+  935  docker ps -a
+  936  docker run -p 9191:8080 docker.io/jenkins
+  937  exit
+  938  docker ps -a
+  939  docker stats
+  940  docker ps
+  941  clea
+  942  clear
+  943  docker ps -a
+  944  docker images
+  945  clear
+  946  docker images
+  947  docker run -p 9393:9191 web1/jenkins
+  948  1
+  949  exit
+  950  clear
+  951  ls
+  952  java -version
+  953  wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/M5/eclipse-java-photon-M5-linux-gtk-x86_64.tar.gz
+  954  ls
+  955  clear
+  956  ls
+  957  du -sh
+  958  tar -zvf download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Fphoton%2FM5%2Feclipse-java-photon-M5-linux-gtk-x86_64.tar.gz 
+  959  clear
+  960  ls
+  961  tar -zvf download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Fphoton%2FM5%2Feclipse-java-photon-M5-linux-gtk-x86_64.tar.gz 
+  962  clear
+  963  wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/M5/eclipse-java-photon-M5-linux-gtk-x86_64.tar.gz&mirror_id=492
+  964  ls
+  965  du -sh
+  966  cd /home/demo/
+  967  ls
+  968  mkdir /home/java
+  969  mv eclipse-java-photon-M5-linux-gtk-x86_64.tar.gz /home/java/
+  970  ls
+  971  clear
+  972  cd /home/java/
+  973  ls
+  974  clear
+  975  ls
+  976  aduser java
+  977  useradd java
+  978  passwd java
+  979  clear
+  980  id java
+  981  cat /etc/passwd |grep java
+  982  usermod -d /home/java java
+  983  info usermod
+  984  usermod -d java /home/java
+  985  usermod -d  /home/java java
+  986  chownjava:java /home/java
+  987  chown java:java /home/java
+  988  clear
+  989  ls
+  990  ls -ltr
+  991  tar zxvf eclipse-java-photon-M5-linux-gtk-x86_64.tar.gz 
+  992  clear
+  993  ls
+  994  cd eclipse/
+  995  ls
+  996  ./eclipse 
+  997  more configuration/config.ini 
+  998  exit
+  999  docker run  --name web3 -p 8080:8080 web1/jenkins
+ 1000  clear
+ 1001  ls
+ 1002  docker ps -a
+ 1003  clear
+ 1004  docker images
+ 1005  clear
+ 1006  ls
+ 1007  pwd
+ 1008  rm download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Fphoton%2FM5%2Feclipse-java-photon-M5-linux-gtk-x86_64.tar.gz
+ 1009  clear
+ 1010  ls
+ 1011  rm download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Fphoton%2FM5%2Feclipse-java-photon-M5-linux-gtk-x86_64.tar.gz.1 
+ 1012  clear
+ 1013  ls
+ 1014  docker images
+ 1015  kvm_stat 
+ 1016  yum update
+ 1017  clear
+ 1018  hostname
+ 1019  docker ps -a
+ 1020  clear
+ 1021  docker swarm init --advertise-addr  192.168.56.12
+ 1022  docker service ls
+ 1023  clear
+ 1024  docker node ls
+ 1025  docker images
+ 1026  clear
+ 1027  iptables -nvL
+ 1028  clear
+ 1029  getenforce 
+ 1030  systemctl stop firewalld.service
+ 1031  systemctl disable firewalld.service
+ 1032  iptables -nvL
+ 1033  clear
+ 1034  iptables -F
+ 1035  clear
+ 1036  ls
+ 1037  clear
+ 1038  docker node ls
+ 1039  docker swarm join     --token SWMTKN-1-1brkyg2ynuv85ij2yndaft0qjeznv0xxv1xy8uhd8jtgmanwpr-4uhmx8am2si9nenchx7ywrk87     192.168.56.12:2377
+ 1040  docker swarm leave
+ 1041  docker swarm leave --force
+ 1042  docker swarm join     --token SWMTKN-1-1brkyg2ynuv85ij2yndaft0qjeznv0xxv1xy8uhd8jtgmanwpr-4uhmx8am2si9nenchx7ywrk87     192.168.56.12:2377
+ 1043  docker node ls
+ 1044  docker swarm init --advertise-addr  192.168.56.12
+ 1045  docker swarm leave --force
+ 1046  docker swarm init --advertise-addr  192.168.56.12
+ 1047  clear
+ 1048  docker ps ls
+ 1049  docker node ls
+ 1050  clear
+ 1051  docker node ls
+ 1052  clear
+ 1053  docker node ls
+ 1054  clear
+ 1055  docker images
+ 1056  docker ps -a
+ 1057  docker service create --name "jenkin_wordpress -p 9090:8080  web3/jenkins" 
+ 1058  docker service create --name "jenkin_wordpress" -p 9090:8080  web3/jenkins
+ 1059  clear
+ 1060  socker se
+ 1061  docker se
+ 1062  docker service ls
+ 1063  docker ps -a
+ 1064  docker exec 78429ae465a6 /var/jenkins_home/secrets/initialAdminPassword
+ 1065  docker exec 78429ae465a6 cat /var/jenkins_home/secrets/initialAdminPassword
+ 1066  docker service ls
+ 1067  clear
+ 1068  docker service ls
+ 1069  docker  service ps 
+ 1070  docker  service ps  jenkins_app
+ 1071  docker service ps jenkins_wordpress
+ 1072  docker service ps jenkin_wordpress
+ 1073  clear
+ 1074  docker service ps jenkin_wordpress
+ 1075  docker service rm jenkins_wordpress
+ 1076  docker service rm jenkin_wordpress
+ 1077  dockr ps -a
+ 1078  docker ps -a
+ 1079  cler
+ 1080  clear
+ 1081  dockr ps -a
+ 1082  docker ps -a
+ 1083  docker service create --name "jenkin_wordpress" -p 9090:8080 --mode global  web3/jenkins
+ 1084  docker ps
+ 1085  clear
+ 1086  docker ps
+ 1087  docker node ls
+ 1088  docker service ps  
+ 1089  docker service ps jenkin_wordpress
+ 1090  docker service rm jenkin_wordpress
+ 1091  docker service ps jenkin_wordpress
+ 1092  docker ps -a
+ 1093  clear
+ 1094  docker ps -a
+ 1095  docker images
+ 1096  docker login
+ 1097  docker push web3/jenkins
+ 1098  docker login
+ 1099  docker push web3/jenkins
+ 1100  docker login docker.io
+ 1101  clear
+ 1102  docker push web3/jenkins web3:latest
+ 1103  docker push web3/jenkins 
+ 1104  docker login dtr.example.org
+ 1105  clear
+ 1106  docker login
+ 1107  ls
+ 1108  docker images
+ 1109   docker tag web3/jenkins docker/web3
+ 1110  docker images
+ 1111   docker tag web3/jenkins docker.io/web3
+ 1112  docker images
+ 1113  docker push docker.io/web3
+ 1114  docker push docker.io/web3:latest
+ 1115   docker tag web3/jenkins docker.io/peshal/web3
+ 1116  docker push docker.io/peshal/web3:latest
+ 1117  clear
+ 1118  docker push peshal/nodejs
+ 1119  docker login
+ 1120  docker push peshal/nodejs
+ 1121  docker images
+ 1122  docker rmi docker.io/peshal/web3
+ 1123  docker rmi docker.io/web3
+ 1124  docker rmi docker/web3
+ 1125  docker images
+ 1126  docker search jenkins
+ 1127  docker pull docker.io/jenkins
+ 1128  docker images
+ 1129  docker service ps jenkin_wordpress
+ 1130  docker service create --name "jenkin_wordpress" -p 9090:8080 --mode global  jenkins
+ 1131  docker service ps jenkin_wordpress
+ 1132  docker ps
+ 1133  docker service ps jenkin_wordpress
+ 1134  clear
+ 1135  docker service ps jenkin_wordpress
+ 1136  docker ps -a
+ 1137  docker rmi 534fe0c6e6e6
+ 1138  docker rm 534fe0c6e6e6
+ 1139  docker stop 534fe0c6e6e6
+ 1140  docker ps -a
+ 1141  docker rm 534fe0c6e6e6
+ 1142  clear
+ 1143  ls
+ 1144  clear
+ 1145  docker ps -a
+ 1146  ls
+ 1147  docker ps -a
+ 1148  docker service ps jenkin_wordpress
+ 1149  docker service rm  jenkin_wordpress
+ 1150  docker service ps jenkin_wordpress
+ 1151  clear
+ 1152  docker ps -a
+ 1153  docker service create --name "Jenkins_SVC" -p 8080:8080 --mode global  jenkins
+ 1154  docker service ps
+ 1155  docker service ps Jenkins_SVC
+ 1156  docker service rm
+ 1157  docker service rm Jenkins_SVC
+ 1158  clear
+ 1159  docker service ps Jenkins_SVC
+ 1160  docker service create --name "Jenkins_SVC" -p 8080:8080 --mode global  jjjjj
+ 1161  docker service rm Jenkins_SVC
+ 1162  docker ps -a
+ 1163  docker images
+ 1164  docker service create --name "Jenkins_SVC" -p 8080:8080 --mode global  docker.io/jenkins
+ 1165  docker service rm Jenkins_SVC
+ 1166  docker service create --name "Jenkins_SVC" -p 8080:8080 --mode global  docker.io/jenkins
+ 1167  docker service ps Jenkins_SVC
+ 1168  docker ps -a
+ 1169  clear
+ 1170  docker service ps Jenkins_SVC
+ 1171  clear
+ 1172  docker service ps Jenkins_SVC
+ 1173  docker service rm Jenkins_SVC
+ 1174  docker service ps Jenkins_SVC
+ 1175  clear
+ 1176  docker ps -a
+ 1177  docker service ps Jenkins_SVC
+ 1178  docker service create --name "cluter-01" -p 8080:8080 --mode global  docker.io/jenkins
+ 1179  docker service ps cluster-01
+ 1180  docker service ps cluter-01
+ 1181  docker service rm cluter-01
+ 1182  docker service create --name "docker-swarm" -p 8080:8080 --mode global  docker.io/jenkins
+ 1183  clear
+ 1184  docker service rm docker-swarm
+ 1185  docker service create --name "docker-swarm" -p 8080:8080 --mode global  docker.io/jenkins
+ 1186  docker ps -a
+ 1187  docker service ps docker-swarm
+ 1188  cat /etc/hosts
+ 1189  clear
+ 1190  cat /etc/hosts
+ 1191  clear
+ 1192  hostname master
+ 1193  clear
+ 1194  docker service ps docker-swarm
+ 1195  docker service rm docker-swarm
+ 1196  docker service ps  docker-swarm
+ 1197  docker node ls
+ 1198  docker service create --name "docker-swarm" -p 8080:8080 --mode global  docker.io/jenkins
+ 1199  docker service ps  docker-swarm
+ 1200  docker ps -a
+ 1201  docker exec cat /var/jenkins_home/secrets/initialAdminPassword
+ 1202  docker exec 9b6f0aeadcbf  cat /var/jenkins_home/secrets/initialAdminPassword
+ 1203  docker service ps  docker-swarm
+ 1204  clear
+ 1205  docker service ps  docker-swarm
+ 1206  docker service 
+ 1207  docker service update
+ 1208  docker service inspect
+ 1209  docker service inspect docker-swarm
+ 1210  ping 10.255.0.6
+ 1211  docker service ps  docker-swarm
+ 1212  docker ps -a
+ 1213  history |grep docker service create 
+ 1214  history |grep docker 
+ 1215  clear
+ 1216  ls
+ 1217  ps
+ 1218  docker service ps  docker-swarm
+ 1219  docker service ps  
+ 1220  docker service ps  docker-swarm
+ 1221  clear
+ 1222  docker service ps  docker-swarm
+ 1223  docker node ls
+ 1224  ip a
+ 1225  docker service ps  docker-swarm
+ 1226  clear
+ 1227  docker node ls
+ 1228  clear
+ 1229  docker node ls
+ 1230  clear
+ 1231  docker node ls
+ 1232  clear
+ 1233  docker ps -a
+ 1234  docker node ls
+ 1235  clear
+ 1236  docker node ls
+ 1237  watch 'docker node ls'
+ 1238  docker ps -a
+ 1239* docker  
+ 1240  docker service ps  docker-swarm
+ 1241  docker service rm  docker-swarm
+ 1242  docker service ps  docker-swarm
+ 1243  docker ps -a
+ 1244  docker service create --name "Engine_gadi" -p 8080:8080 --mode global  docker.io/jenkins
+ 1245  docker service ps Engine_gadi
+ 1246  clear
+ 1247  docker node ls
+ 1248  docker service rm Engine_gadi
+ 1249  docker service ps Engine_gadi
+ 1250  docker service create --name "Engine_gadi" -p 8080:8080 --replicas 2  docker.io/jenkins
+ 1251  docker node ps
+ 1252  docker node ls
+ 1253  clear
+ 1254  ls
+ 1255  docker service ps Engine_gadi
+ 1256  docker ps -a
+ 1257  clear
+ 1258  ls
+ 1259  docker service ps
+ 1260  docker service ps Engine_gadi
+ 1261  docker service scale Engine_gadi=5
+ 1262  docker service ps Engine_gadi
+ 1263  docker stats
+ 1264  docker service ps Engine_gadi
+ 1265  docker service scale Engine_gadi=6
+ 1266  docker service ps Engine_gadi
+ 1267  clear
+ 1268  docker ls
+ 1269  docker ps -a
+ 1270  clear
+ 1271  docker service ls
+ 1272  docker service ps Engine_gadi
+ 1273  docker node update --availability drain  puppet-node-01
+ 1274  docker service ps Engine_gadi
+ 1275  docker node ls
+ 1276  clear
+ 1277  docker node ls
+ 1278  docker node update --availability active  puppet-node-01
+ 1279  docker node ls
+ 1280  docker service ps Engine_gadi
+ 1281  clear
+ 1282  docker service ps Engine_gadi
+ 1283  docker node ls
+ 1284  ip a
+ 1285  clear
+ 1286  ls
+ 1287  ip a
+ 1288  docker ps -a
+ 1289  clear
+ 1290  ls
+ 1291  clear
+ 1292  docker ps 
+ 1293  docker node ls
+ 1294  docker service ?
+ 1295  docker service inspect
+ 1296  docker service inspect Engine_gadi
+ 1297  ls
+ 1298  cd /home/
+ 1299  ls
+ 1300  cd docker-lab/
+ 1301  ls
+ 1302  clear
+ 1303  ls
+ 1304  history >docker-swarm.txt
