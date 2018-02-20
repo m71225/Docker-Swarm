@@ -1,0 +1,126 @@
+#docker swarm init --advertise-addr  192.168.56.12  —initialize the swarm
+#docker service ls —list services
+#docker service ps  <name> ——list task of services
+#docker service create  <name> <image-name> —create a new services
+#docker service rm <name> ——remove services
+#docker service scale <name>=3 ——scale services
+
+Node:
+#docker node ls —list the nodes
+#docker node ps —list the services in the nodes
+#docker node rm <ID> —remove node
+#docker swarm leave —force
+
+Lab:
+from master
+#docker swarm init --advertise-addr  192.168.56.12 
+
+docker swarm join \
+    --token SWMTKN-1-3dvu2esqmwjg9o82p8torervonb5bm0lfmyx7b7mdx80r4kpap-5ihtuzwu5di98142zfnu7pyx4 \
+    192.168.56.12:2377
+
+
+
+Node/client# docker swarm join \
+    --token SWMTKN-1-3dvu2esqmwjg9o82p8torervonb5bm0lfmyx7b7mdx80r4kpap-5ihtuzwu5di98142zfnu7pyx4 \
+    192.168.56.12:2377
+
+—output —This node joined a swarm as a worker.
+
+#docker service create --name "jenkin_wordpress" -p 9090:8080  web3/jenkins
+2yfsyyfjqx75wnmm0eb2stk35
+
+in master[root@puppet-node-01 ~]# docker node ls
+ID                           HOSTNAME        STATUS  AVAILABILITY  MANAGER STATUS
+9a3mrqqst05ctas3be2bdbzb0 *  puppet-node-01  Ready   Active        Leader
+du023qhl2u2utt9u9ctwrt0i8    client          Ready   Active
+# docker node ls ——  Notice the new node/clients added
+
+#docker exec 78429ae465a6 cat /var/jenkins_home/secrets/initialAdminPassword
+
+
+[root@puppet-node-01 ~]# docker service ps jenkin_wordpress
+ID                         NAME                IMAGE         NODE            DESIRED STATE  CURRENT STATE          ERROR
+8kfdeoqs95hyr7doajn7b54wh  jenkin_wordpress.1  web3/jenkins  puppet-node-01  Running        Running 7 minutes ago
+
+
+[root@puppet-node-01 ~]# docker service rm jenkin_wordpress
+jenkin_wordpress
+
+[root@puppet-node-01 ~]# docker service create --name "jenkin_wordpress" -p 9090:8080 --mode global  web3/jenkins
+d0lwrmp2uzjrgpd1wpj6u13om
+
+[root@puppet-node-01 ~]# docker ps
+CONTAINER ID        IMAGE                 COMMAND                  CREATED             STATUS              PORTS                               NAMES
+d9e882d3a55a        web3/jenkins:latest   "/bin/tini -- /usr/lo"   32 seconds ago      Up 31 seconds       8080/tcp, 50000/tcp                 jenkin_wordpress.0.7gp0x8bk8scj7adlyr2yx03ht
+534fe0c6e6e6        web3/jenkins          "/bin/tini -- /usr/lo"   2 hours ago         Up 2 hours          0.0.0.0:8080->8080/tcp, 50000/tcp   web3
+[root@puppet-node-01 ~]#
+
+
+#docker login
+
+[root@puppet-node-01 ~]#  docker tag web3/jenkins docker.io/peshal/web3
+[root@puppet-node-01 ~]# docker push docker.io/peshal/web3:latest
+
+ #service create --name "docker-swarm -p 9090:8080  docker.io/jenkins"
+
+#docker service create --name "docker-swarm" -p 8080:8080 --mode global  docker.io/jenkins
+#docker service ps  docker-swarm
+#docker service rm docker-swarm
+
+
+[root@puppet-node-01 ~]# docker service create --name "Engine_gadi" -p 8080:8080 --mode global  docker.io/jenkins
+a2i2rcwqewtp1mjz9u88jbo2a
+[root@puppet-node-01 ~]# docker service ps Engine_gadi
+ID                         NAME             IMAGE              NODE            DESIRED STATE  CURRENT STATE                   ERROR
+5534fxkrc59y9hasf4i30kgn8  Engine_gadi      docker.io/jenkins  puppet-node-01  Running        Running 13 seconds ago
+1cmsy2v5s8ahw3x7rd37d8jj2   \_ Engine_gadi  docker.io/jenkins  jenkins         Running        Running less than a second ago
+cdzwjhzkdcyxn06c1jw3vnykn   \_ Engine_gadi  docker.io/jenkins  node-01         Running        Running less than a second ago
+[root@puppet-node-01 ~]#
+
+[root@puppet-node-01 ~]# docker service rm Engine_gadi
+Engine_gadi
+[root@puppet-node-01 ~]# docker service ps Engine_gadi
+Error: No such service: Engine_gadi
+[root@puppet-node-01 ~]# docker service create --name "Engine_gadi" -p 8080:8080 --replicas 2  docker.io/jenkins
+48zurqowoy9yt3yqur2vt7coa
+
+root@puppet-node-01 ~]# docker service scale Engine_gadi=5
+
+Engine_gadi scaled to 5
+
+root@puppet-node-01 ~]# docker service scale Engine_gadi=6
+
+[root@puppet-node-01 ~]# docker service ps Engine_gadi
+ID                         NAME           IMAGE              NODE            DESIRED STATE  CURRENT STATE                     ERROR
+0r36toue3lz9leg7qnygec0rb  Engine_gadi.1  docker.io/jenkins  jenkins         Running        Preparing less than a second ago
+05wiuowqaiolop5y2nw20kydz  Engine_gadi.2  docker.io/jenkins  node-01         Running        Running less than a second ago
+aicz6telh8g9moxze0a8ea57w  Engine_gadi.3  docker.io/jenkins  puppet-node-01  Running        Running about a minute ago
+97sodzagzq78imu3jqy4yblom  Engine_gadi.4  docker.io/jenkins  puppet-node-01  Running        Running about a minute ago
+apoyie0yt5yaruvzksa45ngld  Engine_gadi.5  docker.io/jenkins  jenkins         Running        Preparing less than a second ago
+58amesu2sw8t9swk750cjlcmu  Engine_gadi.6  docker.io/jenkins  node-01         Running        Running less than a second ago
+
+
+root@puppet-node-01 ~]# docker service ls
+ID            NAME         REPLICAS  IMAGE              COMMAND
+48zurqowoy9y  Engine_gadi  4/6       docker.io/jenkins
+
+
+[root@puppet-node-01 ~]# docker node update --availability drain  puppet-node-01
+puppet-node-01
+
+#docker service ps Engine_gadi
+
+
+
+
+[root@puppet-node-01 ~]# docker node ls
+ID                           HOSTNAME        STATUS  AVAILABILITY  MANAGER STATUS
+1usc0tmif2cf35faxeebgcc7z    jenkins         Ready   Active
+9a3mrqqst05ctas3be2bdbzb0 *  puppet-node-01  Ready   Drain         Leader
+du023qhl2u2utt9u9ctwrt0i8    node-01         Down    Active
+
+
+[root@puppet-node-01 ~]# docker node update --availability active  puppet-node-01
+puppet-node-01
+
