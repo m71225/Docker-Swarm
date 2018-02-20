@@ -1,0 +1,93 @@
+ID            NAME         REPLICAS  IMAGE              COMMAND
+48zurqowoy9y  Engine_gadi  0/6       docker.io/jenkins  
+[
+    {
+        "ID": "48zurqowoy9yt3yqur2vt7coa",
+        "Version": {
+            "Index": 8871
+        },
+        "CreatedAt": "2018-02-20T15:12:38.194903389Z",
+        "UpdatedAt": "2018-02-20T15:21:25.901051409Z",
+        "Spec": {
+            "Name": "Engine_gadi",
+            "TaskTemplate": {
+                "ContainerSpec": {
+                    "Image": "docker.io/jenkins"
+                },
+                "Resources": {
+                    "Limits": {},
+                    "Reservations": {}
+                },
+                "RestartPolicy": {
+                    "Condition": "any",
+                    "MaxAttempts": 0
+                },
+                "Placement": {}
+            },
+            "Mode": {
+                "Replicated": {
+                    "Replicas": 6
+                }
+            },
+            "UpdateConfig": {
+                "Parallelism": 1,
+                "FailureAction": "pause"
+            },
+            "EndpointSpec": {
+                "Mode": "vip",
+                "Ports": [
+                    {
+                        "Protocol": "tcp",
+                        "TargetPort": 8080,
+                        "PublishedPort": 8080
+                    }
+                ]
+            }
+        },
+        "Endpoint": {
+            "Spec": {
+                "Mode": "vip",
+                "Ports": [
+                    {
+                        "Protocol": "tcp",
+                        "TargetPort": 8080,
+                        "PublishedPort": 8080
+                    }
+                ]
+            },
+            "Ports": [
+                {
+                    "Protocol": "tcp",
+                    "TargetPort": 8080,
+                    "PublishedPort": 8080
+                }
+            ],
+            "VirtualIPs": [
+                {
+                    "NetworkID": "agb53sycd0jduj7ciwxni7lih",
+                    "Addr": "10.255.0.6/16"
+                }
+            ]
+        },
+        "UpdateStatus": {
+            "StartedAt": "0001-01-01T00:00:00Z",
+            "CompletedAt": "0001-01-01T00:00:00Z"
+        }
+    }
+]
+ID                           HOSTNAME        STATUS  AVAILABILITY  MANAGER STATUS
+1usc0tmif2cf35faxeebgcc7z    jenkins         Ready   Active        
+9a3mrqqst05ctas3be2bdbzb0 *  puppet-node-01  Ready   Active        Leader
+du023qhl2u2utt9u9ctwrt0i8    node-01         Ready   Active        
+ID                         NAME               IMAGE              NODE            DESIRED STATE  CURRENT STATE                     ERROR
+0r36toue3lz9leg7qnygec0rb  Engine_gadi.1      docker.io/jenkins  jenkins         Running        Preparing less than a second ago  
+df61xjbad0dxrdtzh4xg9a4p2  Engine_gadi.2      docker.io/jenkins  jenkins         Running        Preparing less than a second ago  
+05wiuowqaiolop5y2nw20kydz   \_ Engine_gadi.2  docker.io/jenkins  node-01         Shutdown       Shutdown less than a second ago   
+8prl3vkzlfp5lyko3o8vbd8kd  Engine_gadi.3      docker.io/jenkins  jenkins         Running        Preparing less than a second ago  
+aicz6telh8g9moxze0a8ea57w   \_ Engine_gadi.3  docker.io/jenkins  puppet-node-01  Shutdown       Shutdown 22 minutes ago           
+a823njsyhkswsii3z0x8pgke2  Engine_gadi.4      docker.io/jenkins  jenkins         Running        Preparing less than a second ago  
+6436o7npw56jap4jhp1trz3aa   \_ Engine_gadi.4  docker.io/jenkins  node-01         Shutdown       Failed less than a second ago     "starting container failed: co…"
+97sodzagzq78imu3jqy4yblom   \_ Engine_gadi.4  docker.io/jenkins  puppet-node-01  Shutdown       Shutdown 22 minutes ago           
+apoyie0yt5yaruvzksa45ngld  Engine_gadi.5      docker.io/jenkins  jenkins         Running        Preparing less than a second ago  
+bz8upbgqe9lmaa8x9lf7tegdm  Engine_gadi.6      docker.io/jenkins  jenkins         Running        Preparing less than a second ago  
+58amesu2sw8t9swk750cjlcmu   \_ Engine_gadi.6  docker.io/jenkins  node-01         Shutdown       Shutdown less than a second ago   
